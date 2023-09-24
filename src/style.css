@@ -1,0 +1,62 @@
+.aws-cli-help.launcher {
+    opacity: 0.5;
+    background: black;
+    color: white;
+    font-weight: bold;
+
+    padding: 0px 3px 2px 3px;
+    border-radius: .2em;
+
+    cursor: help;
+
+    display: inline;
+    position: relative;
+    left: -.5em;
+    top: -.5em;
+}
+
+.tooltipster-content {
+    font-family: sans-serif;
+}
+
+.tooltipster-content .intro {
+    font-style: italic;
+}
+
+.tooltipster-content .example {
+    font-family: monospace;
+    background: darkslategray;
+    color: white;
+    padding: .2em .4em;
+    margin: .3em 0;
+}
+
+.tooltipster-content .example a {
+    color: inherit;
+    text-decoration: none;
+}
+.tooltipster-content .example a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.tooltipster-content span.aws:before {
+    content: '\276F  ';
+}
+.tooltipster-content span.aws {
+    font-weight: bold;
+}
+
+.tooltipster-content span.svc {
+    font-weight: bold;
+    color: lightblue;
+}
+
+.tooltipster-content span.cmd {
+    font-weight: bold;
+    color: lightgreen;
+}
+
+.tooltipster-content span.param {
+    color: yellow;
+}

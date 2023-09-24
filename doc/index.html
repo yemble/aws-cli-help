@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AWS CLI Help chrome extension</title>
+
+    <link rel="icon" type="image/x-png" href="../src/awshelp.512px.png">
+
+    <meta property="og:description" content="Chrome extension that provides contextual aws cli command suggestions within the AWS web console." />
+    <meta property="og:image" content="/screenshot1.png" />
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      #content {
+        max-width: 800px;
+        margin: 3em auto;
+      }
+
+      #outer {
+        transform: rotate(1.0deg);
+        border: 2px solid #f70;
+        background: #fffafa;
+        padding: 50px 60px 80px 60px;
+      }
+
+      #outer #inner {
+        transform: rotate(-1.0deg);
+      }
+
+      img.icon.inline {
+        width: 1.5rem;
+        border-radius: .1em;
+      }
+
+      .media {
+        filter: drop-shadow(0px 0px 2px #300);
+      }
+      .media.full-wdith {
+        width: 100%;
+        margin: .5em 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <div id="outer">
+        <div id="inner">
+          <h1><img src="../src/awshelp.512px.png" class="icon inline" alt="project icon" /> AWS CLI Help</h1>
+
+          <p id="description">Contextual <a href="https://aws.amazon.com/cli" target="_blank">aws cli</a> command suggestions within the AWS web console to help learn command line usage.</p>
+
+          <div>
+            <iframe width="560" height="315" class="media full-wdith"
+              src="https://www.youtube.com/embed/Gpg84PcXmrw?si=Dt94x4TZ1QrnKYNf&cc_load_policy=1&cc_lang_pref=en"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+
+          <div>
+              <img src="screenshot1.png" class="media full-wdith" alt="screenshot showing pop up help for an s3 bucket in the list" />
+          </div>
+
+          <h2>Install the Google Chrome extension ✨</h2>
+
+          <h3>Option 😏: Install from the Chrome Web Store</h3>
+
+          <p>One click.</p>
+
+          <a href="">https://</a>
+
+          <h3>Option 🧐: Install manually from code</h3>
+
+          <p>Download the source, <a href="https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked">load the unpacked extension</a> in Chrome.</p>
+
+          <a href="">https://</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
