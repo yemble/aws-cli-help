@@ -98,7 +98,7 @@
             intro: 'Operations on an EC2 Instance',
             examples: [
               {svc: 'ec2', cmd: 'describe-instances', args: '--instance-ids <id>'},
-              {svc: 'ec2', cmd: 'send-ssh-public-key', args: '--instance-id <id> --instance-os-user root --ssh-public-key file://$HOME/.ssh/id_dsa.pub'},
+              {svc: 'ec2-instance-connect', cmd: 'send-ssh-public-key', args: '--instance-id <id> --instance-os-user root --ssh-public-key file://$HOME/.ssh/id_dsa.pub'},
             ],
           },
         },

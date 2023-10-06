@@ -4,7 +4,7 @@
   "name": "AWS CLI Help",
   "description": "Adds command line tool suggestions to AWS web console pages.",
   "icons": { "512": "awshelp.512px.png" },
-  "version": "0.2",
+  "version": "0.3.1",
 
   "permissions": [
     "storage"
